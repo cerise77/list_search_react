@@ -1,0 +1,152 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}body{-webkit-text-size-adjust:none}
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&amp;subset=cyrillic');
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+	background: #000;
+	font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #a2a2a2;
+}
+
+.main {
+  margin: 0 10px 0 10px;
+  border-radius: 3px;
+  background: #e9eef3;
+}
+.list{
+  display: grid;
+  grid-template-columns: 0.1fr 0.2fr 2.9fr 0.8fr;
+}
+
+
+form {
+  margin: 10px 10px 0 10px;
+}
+
+input {
+
+  padding: 20px 7px;
+  border: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  width: 100%;
+  background: #e9eef3;
+  font-size: 0.8em;
+  color: #c1c2c5;
+}
+
+
+ul.num {
+  list-style: none;
+}
+ul.num > li{
+  padding: 12px 0 12px 5px;
+  font-size: 0.7em;
+  color: #c1c2c5;
+}
+ul.num > li:nth-child(2n+1){
+  background: #fff;
+}
+.number{
+  margin-top: 10px;
+}
+.name {
+  margin-left: 6px;
+}
+.pageviews p {
+  margin-right: 10px;
+  margin-top: 6px;
+  text-align: right;
+  font-size: 1.1em;
+  color: #000;
+  font-weight: 600;
+}
+.name p {
+  margin-bottom: 3px;
+  font-size: 1.1em;
+  color: #000;
+  font-weight: 600;
+}
+
+/*ul.quan {
+  list-style: none;
+}
+ul.quan > li{
+  padding: 14px 0 14px 0;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #000;
+}
+ul.quan > li:nth-child(2n+1){
+  background: #fff;
+}
+
+
+ul.name {
+  list-style: none;
+}
+ul.name > li{
+  padding: 14px 0 14px 5px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #000;
+}
+ul.name > li:nth-child(2n+1){
+  background: #fff;
+}*/
+
+
+ul.num > li a {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 5px 5px;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 0.9em;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  vertical-align: middle;
+}
+ul.num > li:nth-child(1) a {
+  background-color: #67c9de;
+}
+ul.num > li:nth-child(2) a {
+  background-color: #ba6fcb;
+}
+ul.num > li:nth-child(3) a {
+  background-color: #e39473;
+}
+ul.num > li:nth-child(4) a {
+  background-color: #5aa9e6;
+}
+ul.num > li:nth-child(5) a {
+  background-color: #ac5061;
+}
+ul.num > li:nth-child(6) a {
+  background-color: #9ec07f;
+}
+ul.num > li:nth-child(7) a {
+  background-color: #b4507b;
+}
+ul.num > li:nth-child(8) a {
+  background-color: #345fe9;
+}
+ul.num > li:nth-child(9) a {
+  background-color: #6bd3dd;
+}
+ul.num > li:nth-child(10) a {
+  background-color: #ced2cb;
+}
+ul.num > li:nth-child(2n+1){
+  background: #fff;
+}
